@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import Accueil from './pages/Accueil'
 import Error from './pages/Error'
 import Propos from './pages/Propos'
