@@ -1,0 +1,42 @@
+@import '../style/Helper/variables';
+@import '../style/Helper/mixins';
+#root{
+  width: 100%;
+  .header{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    @include mobile{
+      width: 90%;
+    }
+    .logo{
+      width: 210px;
+      height: 68px;
+      @include mobile{
+        width: 145px;
+        height: 47px;
+      }
+    }
+    nav{
+      margin-top: 20px;
+      .navItem{
+        margin-right: 30px;
+        font-family: $primaryfont;
+        font-size: 24px;
+        font-weight: 500;
+        color: $primaryColor;
+        text-decoration: none;
+        @include mobile{
+          font-size: 12px;
+          margin-right: 5px;
+        }
+      }
+      .active{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+

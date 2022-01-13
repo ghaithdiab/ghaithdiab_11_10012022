@@ -1,0 +1,23 @@
+@import '../style/Helper/variables';
+@import '../style/Helper/mixins';
+
+.footer{
+  width: 100%;
+  height: 150px;
+  background-color: $footercolor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  img{
+    width: 100px;
+    height: 35px;
+    margin-top: 50px;
+  }
+  p{
+    font-family: $primaryfont;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+  }
+}

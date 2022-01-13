@@ -1,0 +1,17 @@
+/*------start mixin breaking points---------*/
+// @import '../Helper/variables';
+@mixin mobile {
+  @media(max-width:$mobile){
+    @content;
+  }
+}
+@mixin tablet {
+  @media(min-width:$tablets)and(max-width:$computers){
+    @content;
+  }
+}
+@mixin bigScreen {
+  @media (min-width:$extraLarge) {
+    @content;
+  }
+}
