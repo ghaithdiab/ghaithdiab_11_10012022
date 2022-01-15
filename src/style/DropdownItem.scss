@@ -1,0 +1,58 @@
+@import '../style/Helper/variables';
+@import '../style/Helper/mixins';
+
+.dropdownContainer{
+  width: 60%;
+  margin: 40px auto auto auto;
+  .list-item{
+    margin-bottom: 30px;
+    .dropdown-btn{
+      cursor: pointer;
+      background-color: $primaryColor;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-radius: 5px;
+      color: #fff;
+      font-family: $primaryfont;
+      font-size: 24px;
+      font-weight: 500;
+      &::after{
+        display: block;
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-right: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        transform: rotate(45deg);
+        transition: 500ms;
+        margin-right: 10px;
+        margin-top: 5px;
+      }
+      &.visible{
+      &::after{
+          transform: rotate(225deg);
+          transition: 500ms;
+          margin-top: 10px;
+        }
+      }
+      .icon{
+        margin-top: 5px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .dropdown-content{
+      padding: 20px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: $secoundColor;
+      p{
+        color: $primaryColor;
+        font-family: $primaryfont;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+}

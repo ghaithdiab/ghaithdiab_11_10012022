@@ -9,7 +9,7 @@ export default class LogementList extends Component {
       <div className='logementContainer'>
         <ul>
           {data.map(({id,title,cover})=>(
-            <Link to={`/logement/${id}`} key={id} className='listItem'>
+            <Link to={"/logement/"+id} key={id} className='listItem'>
               <LogementItem title={title} cover={cover}/>
             </Link>
           ))}
