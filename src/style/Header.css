@@ -24,6 +24,12 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  #root .header {
+    width: 90%;
+  }
+}
+
 #root .header .logo {
   width: 210px;
   height: 68px;
@@ -53,6 +59,12 @@
   #root .header nav .navItem {
     font-size: 12px;
     margin-right: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #root .header nav .navItem {
+    margin-right: 0;
   }
 }
 

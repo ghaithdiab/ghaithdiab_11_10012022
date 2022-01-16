@@ -11,6 +11,9 @@
     @include mobile{
       width: 90%;
     }
+    @include tablet{
+      width: 90%;
+    }
     .logo{
       width: 210px;
       height: 68px;
@@ -31,6 +34,9 @@
         @include mobile{
           font-size: 12px;
           margin-right: 5px;
+        }
+        @include tablet{
+          margin-right: 0;
         }
       }
       .active{

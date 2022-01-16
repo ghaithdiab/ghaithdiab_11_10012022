@@ -1,0 +1,74 @@
+@import './Helper/variables';
+@import './Helper/mixins';
+
+
+.slider{
+  position: relative;
+  width: 80%;
+  height: 415px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include mobile{
+    width: 95%;
+    height: 255px;
+    margin: 30px auto;
+  }
+  @include tablet{
+    width: 95%;
+    height: 300px;
+    margin: 50px auto;
+  }
+  .leftBtn{
+    background: url('../assets/leftBtn.svg') no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 45px;
+    border: none;
+    cursor: pointer;
+    @include mobile{
+      width: 25px;
+      height: 25px;
+      left: 20px;
+    }
+  }
+  .rightBtn{
+    background: url('../assets/rightBtn.svg') no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    border: none;
+    cursor: pointer;
+    @include mobile{
+      width: 25px;
+      height: 25px;
+      right: 15px;
+    }
+  }
+  .imgs{
+    width: 1150px;
+    height: 415px;
+    object-fit: cover;
+    border-radius: 25px;
+    @include mobile{
+      width: 350px;
+      height: 255px;
+    }
+    @include tablet{
+      width: 700px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  .slide{
+    opacity: 0;
+    transition: .1s ease;
+  &.active{
+    opacity: 1;
+    transition: .7s;
+  }
+  }
+}

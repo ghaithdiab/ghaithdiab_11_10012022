@@ -5,5 +5,7 @@
 li img {
   width: 340px;
   height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=LogementItem.css.map */
