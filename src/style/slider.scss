@@ -65,10 +65,10 @@
   }
   .slide{
     opacity: 0;
-    transition: .1s ease;
+    // transition: .1s ease;
   &.active{
     opacity: 1;
-    transition: .7s;
+    // transition: .7s;
   }
   }
 }

@@ -1,0 +1,23 @@
+@import './Helper/variables';
+@import './Helper/mixins';
+
+
+.tagsContainer{
+  display: flex;
+  @include mobile {
+    flex-wrap: wrap;
+  }
+  .tag{
+    background-color: $primaryColor;
+    margin-right: 10px;
+    padding: 5px 25px;
+    font-family: $primaryfont;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    @include mobile{
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -11,7 +11,7 @@ export default class Header extends Component {
         </Link>
         <nav>
           <Link to="/"className={window.location.pathname==='/'? 'navItem active' :'navItem'}>Accueil</Link>
-          <Link to="/propos" className={window.location.pathname==='/propos'? 'navItem active' :'navItem'}> A Propse</Link>
+          <Link to="/propos" className={window.location.pathname==='/propos'? 'navItem active' :'navItem'}> A Propos</Link>
         </nav>
       </div>
     )

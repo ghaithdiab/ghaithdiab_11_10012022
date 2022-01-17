@@ -96,13 +96,9 @@
 
 .slider .slide {
   opacity: 0;
-  -webkit-transition: .1s ease;
-  transition: .1s ease;
 }
 
 .slider .slide.active {
   opacity: 1;
-  -webkit-transition: .7s;
-  transition: .7s;
 }
 /*# sourceMappingURL=slider.css.map */

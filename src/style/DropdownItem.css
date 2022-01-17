@@ -7,6 +7,12 @@
   margin: 40px auto auto auto;
 }
 
+@media (max-width: 767px) {
+  .dropdownContainer {
+    width: 90%;
+  }
+}
+
 .dropdownContainer .list-item {
   margin-bottom: 30px;
 }
@@ -62,6 +68,8 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: #F6F6F6;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .dropdownContainer .list-item .dropdown-content p {

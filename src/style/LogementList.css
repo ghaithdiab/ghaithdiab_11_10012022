@@ -10,6 +10,12 @@
   padding: 40px;
 }
 
+@media (max-width: 767px) {
+  .logementContainer {
+    padding: 20px;
+  }
+}
+
 .logementContainer ul {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -4,6 +4,9 @@
 .dropdownContainer{
   width: 60%;
   margin: 40px auto auto auto;
+  @include mobile{
+    width: 90%;
+  }
   .list-item{
     margin-bottom: 30px;
     .dropdown-btn{
@@ -47,6 +50,7 @@
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
       background-color: $secoundColor;
+      transition: 1s ;
       p{
         color: $primaryColor;
         font-family: $primaryfont;

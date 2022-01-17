@@ -1,0 +1,17 @@
+@import  './Helper/variables';
+@import './Helper/mixins';
+
+.stars{
+  margin-top: 20px;
+  @include mobile{
+    margin-top: 30px;
+  }
+  img{
+    width: 30px;
+    height: 30px;
+    @include mobile{
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
