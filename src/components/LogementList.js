@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import {data} from '../data/data'
 import LogementItem from './LogementItem'
-import '../style/LogementList.css'
+import '../style/LogementList.scss'
 export default class LogementList extends Component {
   render() {
     return (

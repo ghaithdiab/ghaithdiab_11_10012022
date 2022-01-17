@@ -20,6 +20,7 @@
     font-weight: 500;
     color: $primaryColor;
     margin: 0;
+    user-select: none;
     @include mobile{
       font-size: 96px;
     }

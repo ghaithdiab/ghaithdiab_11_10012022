@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../style/Tags.css'
+import '../style/Tags.scss'
 export default class Tags extends Component {
   render() {
     return (<div className='tagsContainer'>

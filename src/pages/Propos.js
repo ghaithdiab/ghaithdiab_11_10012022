@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from '../components/Header'
-import BackgroundDescrption from '../components/BackgroundDescrption'
+import Banner from '../components/Banner'
 import DropdownItem from '../components/DropdownItem'
 import Footer from '../components/Footer'
 export default class Propos extends Component {
@@ -8,7 +8,7 @@ export default class Propos extends Component {
     return (
       <div>
         <Header />
-        <BackgroundDescrption />
+        <Banner />
         <DropdownItem title="Fiabilité" description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."/>
         <DropdownItem title="Respect" description="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."/>
         <DropdownItem title="Service" description="Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question."/>

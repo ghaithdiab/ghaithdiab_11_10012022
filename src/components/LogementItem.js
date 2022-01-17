@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../style/LogementItem.css'
+import '../style/LogementItem.scss'
 export default class LogementItem extends Component {
   render() {
     return (

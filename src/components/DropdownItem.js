@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../style/DropdownItem.css'
+import '../style/DropdownItem.scss'
 export default class DropdownItem extends Component {
   constructor(){
     super()

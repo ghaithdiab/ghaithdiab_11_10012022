@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import star from '../assets/star.svg'
 import starColor from '../assets/starColor.svg'
-import '../style/StarRating.css'
+import '../style/StarRating.scss'
 export default class StarRating extends Component{
     render(){
       return (

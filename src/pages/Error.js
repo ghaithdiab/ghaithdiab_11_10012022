@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header'
-import '../style/Error.css'
+import '../style/Error.scss'
 export default class Error extends Component {
   render(){
     return(

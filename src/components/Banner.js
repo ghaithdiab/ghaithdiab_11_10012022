@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Background from '../assets/Background.png'
 import BackgroundAboutPage from '../assets/BackgroundAboutPage.png'
-import '../style/BackgroundDescrption.css'
-export default class BackgroundDescrption extends Component {
+import '../style/Banner.scss'
+export default class Banner extends Component {
   render() {
     return (
       <div className="container">

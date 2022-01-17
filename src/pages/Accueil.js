@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from '../components/Header'
-import BackgroundDescrption from '../components/BackgroundDescrption'
+import Banner from '../components/Banner'
 import LogementList from '../components/LogementList'
 import Footer from '../components/Footer'
 export default class Accueil extends Component {
@@ -8,7 +8,7 @@ export default class Accueil extends Component {
     return (
       <div>
         <Header/>
-        <BackgroundDescrption/>
+        <Banner/>
         <LogementList/>
         <Footer/>
       </div>

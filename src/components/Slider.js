@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../style/slider.css'
+import '../style/slider.scss'
 
 export default class Slider extends Component {
   constructor(props) {
@@ -34,14 +34,17 @@ export default class Slider extends Component {
             this.prevSlide()
           }}
         ></button>
-        {this.props.photos.map((photo,index) => {
+        {this.props.photos.map((photo, index) => {
           return (
-            <div className={index=== this.state.current ? 'slide active' : 'slide'} key={index}>
-              {index===this.state.current ?<img
-                src={photo}
-                alt="Logement photos"
-                className="imgs"
-              />: null}
+            <div
+              className={
+                index === this.state.current ? 'slide active' : 'slide'
+              }
+              key={index}
+            >
+              {index === this.state.current ? (
+                <img src={photo} alt="Logement photos" className="imgs" />
+              ) : null}
             </div>
           )
         })}
@@ -51,6 +54,7 @@ export default class Slider extends Component {
             this.nextSlide()
           }}
         ></button>
+        <div className="counter">{this.state.current+1}/{this.props.photos.length}</div>
       </section>
     )
   }

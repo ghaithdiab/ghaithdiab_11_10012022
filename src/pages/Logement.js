@@ -5,17 +5,19 @@ import {data} from '../data/data'
 import Slider from '../components/Slider'
 import Tags from '../components/Tags'
 import StarRating from '../components/StarRating'
-import '../style/Logement.css'
+import '../style/Logement.scss'
 import DropdownItem from '../components/DropdownItem'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import Error from '../pages/Error'
 export default class Logement extends Component {
   render() {
     const logementData=data.find((e)=>{return e.id===window.location.pathname.substring(10)})
     return (
       <div>
-        <Header />
-        {logementData===undefined ? (<Link to='/Error'></Link>)
-        : (<div>
+        {logementData===undefined ? (<Error/>)
+        : (
+        <div>
+          <Header/>
           <Slider photos={logementData.pictures}/>
         <section className='info'>
           <div className='addressInfo'>
@@ -41,10 +43,9 @@ export default class Logement extends Component {
             </div>
           </div>
         </section>
+        <Footer/>
         </div>) 
         }
-        
-        <Footer />
       </div>
     )
   }
