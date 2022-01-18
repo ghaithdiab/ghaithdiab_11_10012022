@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ghaithdiab_11_10012022/static/css/main.ceb7c5f4.chunk.css",
+    "main.js": "/ghaithdiab_11_10012022/static/js/main.58d2df45.chunk.js",
+    "main.js.map": "/ghaithdiab_11_10012022/static/js/main.58d2df45.chunk.js.map",
+    "runtime-main.js": "/ghaithdiab_11_10012022/static/js/runtime-main.a4c29e32.js",
+    "runtime-main.js.map": "/ghaithdiab_11_10012022/static/js/runtime-main.a4c29e32.js.map",
+    "static/js/2.6c2589cc.chunk.js": "/ghaithdiab_11_10012022/static/js/2.6c2589cc.chunk.js",
+    "static/js/2.6c2589cc.chunk.js.map": "/ghaithdiab_11_10012022/static/js/2.6c2589cc.chunk.js.map",
+    "index.html": "/ghaithdiab_11_10012022/index.html",
+    "precache-manifest.76fc01788322a7c4db607416a5be58dd.js": "/ghaithdiab_11_10012022/precache-manifest.76fc01788322a7c4db607416a5be58dd.js",
+    "service-worker.js": "/ghaithdiab_11_10012022/service-worker.js",
+    "static/css/main.ceb7c5f4.chunk.css.map": "/ghaithdiab_11_10012022/static/css/main.ceb7c5f4.chunk.css.map",
+    "static/js/2.6c2589cc.chunk.js.LICENSE.txt": "/ghaithdiab_11_10012022/static/js/2.6c2589cc.chunk.js.LICENSE.txt",
+    "static/media/Background.png": "/ghaithdiab_11_10012022/static/media/Background.c3e7b3eb.png",
+    "static/media/BackgroundAboutPage.png": "/ghaithdiab_11_10012022/static/media/BackgroundAboutPage.454a98c9.png",
+    "static/media/slider.scss": "/ghaithdiab_11_10012022/static/media/rightBtn.b6a25521.svg",
+    "static/media/star.svg": "/ghaithdiab_11_10012022/static/media/star.1b740f08.svg",
+    "static/media/starColor.svg": "/ghaithdiab_11_10012022/static/media/starColor.76999bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4c29e32.js",
+    "static/js/2.6c2589cc.chunk.js",
+    "static/css/main.ceb7c5f4.chunk.css",
+    "static/js/main.58d2df45.chunk.js"
+  ]
+}
