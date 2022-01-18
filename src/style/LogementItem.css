@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap");
+/*------start varibles of Colors and fonts-------------*/
+/*------start varibles breaking points---------*/
+/*------start mixin breaking points---------*/
+li img {
+  width: 340px;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+li img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=LogementItem.css.map */
