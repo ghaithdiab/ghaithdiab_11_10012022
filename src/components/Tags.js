@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from 'react'
 import '../style/Tags.scss'
 export default class Tags extends Component {

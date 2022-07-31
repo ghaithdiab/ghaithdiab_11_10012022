@@ -10,8 +10,11 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Accueil />} />
+      <Route path="ghaithdiab_11_10012022/" element={<Accueil />} />
       <Route path="/propos" element={<Propos />} />
+      <Route path="ghaithdiab_11_10012022/propos" element={<Propos />} />
       <Route path="/logement/:id/" element={<Logement />} />
+      <Route path="ghaithdiab_11_10012022/logement/:id/" element={<Logement />} />
       <Route path="/*" element={<Error />} />
     </Routes>
   </BrowserRouter>,

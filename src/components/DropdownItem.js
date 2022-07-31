@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from 'react'
 import '../style/DropdownItem.scss'
 export default class DropdownItem extends Component {

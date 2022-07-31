@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { Component } from 'react'
 import '../style/LogementItem.scss'
 export default class LogementItem extends Component {
